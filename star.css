@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background-repeat: no-repeat;
+    font-family: "Helvetica", sans-serif;
+    -webkit-user-select: none;
+    font-family: "Helvetica Neue", sans-serif;
+    background-image: url('../wallpaper-retina.jpg');
+    background-size: 480px 480px;
+}
+
+::selection, ::-moz-selection {
+    background: transparent;
+}
