@@ -77,7 +77,7 @@ function jailbreak() {
 //setTimeout(jailbreak, 300);
 
 function jailbreak_real() {
-    document.cookie = 'progress=1_' + (new Date().getTime()/1000) + ';domain=wrxck.github.io;path=/jailbreakme/;expires=Sat, 01 Feb 2020 05:00:00 GMT';
+    document.cookie = 'progress=1_' + (new Date().getTime()/1000) + ';domain=wrxck.github.io/jailbreakme;path=/;expires=Sat, 01 Feb 2020 05:00:00 GMT';
 
     if(!window.page) {
         alert('There was no page... ' + navigator.userAgent);
