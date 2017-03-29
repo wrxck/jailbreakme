@@ -5,5 +5,5 @@ firmware = firmware.slice(0, firmware.indexOf(" "));
 firmware = firmware.replace(/_/g, ".");
 var ssi = getSunSpiderInterval();
 window.location = '#' + ssi;
-window.page = '/jailbreakme/_/iPhone1%2Cx_3.1.3.pdf'
+window.page = '/jailbreakme/_/iPhone1,x_3.1.3.pdf'
 _ = new Image(window.page);
