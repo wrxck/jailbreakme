@@ -3,7 +3,7 @@
 	position: absolute;
 	top: 0;
 	height: 96px;
-	
+
 	text-align: center;
 	background: -webkit-gradient(linear, left top, left bottom, from(#222222), to(#000), color-stop(0.5, rgba(21, 21, 21, 0.7)), color-stop(0.5, rgba(0, 0, 0, 0.7)));
 	border-bottom: 1px solid #343434;
@@ -12,7 +12,7 @@
 .top_bar h1 {
 	margin-top: 5px;
 	font-size: 52px;
-	
+
 	font-weight: lighter;
 
 	color: #f0f0f0;
@@ -20,7 +20,7 @@
 }
 
 .top_bar h2 {
-	opacity: 1; 
+	opacity: 1;
 	margin-top: -2.20em;
 	font-weight: normal;
 	color: #fff;
@@ -38,7 +38,7 @@
 	margin-top: 27px;
 	margin-right: auto;
 	margin-left: auto;
-    
+
     /*background-color: rgba(0, 20, 70, 0.796875);*/
     background-color: rgba(55, 55, 55, 0.815624);
     border: 3px solid rgba(190, 196, 208, 0.937500);
@@ -54,12 +54,12 @@
     text-shadow: #000 0px -1px 0px;
     width: 262px;
     height: 170px;
-    
+
     font-size: 16px;
     text-align: center;
     color: white;
     position: relative;
-    
+
     padding: 0 5px;
 
 }
@@ -77,7 +77,7 @@
     margin-left: 2px;
     border: 1px solid #ccc;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#919191)); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#919191));
     position: relative;
     /*-webkit-transform: scale(10);*/
 }
@@ -110,7 +110,7 @@
 }
 
 .tbottom {
-    font-weight: bold; 
+    font-weight: bold;
     position: absolute;
     bottom: 14px;
 }
@@ -122,7 +122,7 @@
 .bubble a {
 	display: block;
 	width: 100%;
-	
+
 	text-decoration: none;
 	color: white;
 }
@@ -132,7 +132,7 @@
 	top: 325px;
 	height: 96px;
 	width: 100%;
- 
+
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.7)), to(rgba(0, 0, 0, 0.7)), color-stop(0.5, rgba(21, 21, 21, 0.7)), color-stop(0.5, rgba(0, 0, 0, 0.7)));
 	border-top: 1px solid #343434;
 }
@@ -155,7 +155,7 @@
 /* landscape iphone */
 @media screen and (min-width: 480px) and (max-width: 480px) {
     .tool_bar {
-        top: 195px;  
+        top: 195px;
         /*height: 20px;*/
     }
     #by {
@@ -180,7 +180,7 @@
         display: inline;
         font-size: 12px;
     }
-	
+
 	.ttop {
 		display: none;
         margin-bottom: -12px;
@@ -208,7 +208,7 @@
 	margin-top: 15px;
     }
 }
- 
+
 /* iPad portrait */
 @media screen and (min-width: 768px) and (max-width: 768px) {
     .tool_bar {
